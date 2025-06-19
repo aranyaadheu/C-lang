@@ -12,6 +12,8 @@ int main(void){
         else {
             printf("%c is a consonant!!\n", ch);
         }
+    } else{
+        printf("%c is not an Alphabet.\n", ch);
     }
 
     return 0;
