@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// all odd nums in 1 to n
 int main()
 {
     int i, n;
