@@ -3,14 +3,17 @@
 
 int main()
 {
-    int i, n;
+    int i, n, count = 0;
     printf("Enter a number: ");
     scanf("%d", &n);
     for (i=1; i <= n; i++){
         if(n % i == 0){
             printf("%d\n", i);
+            count = count + 1;
+            
         } 
     }
+    printf("Total count = %d\n", count);
 
     return 0;
 }
