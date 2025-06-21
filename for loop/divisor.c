@@ -14,6 +14,11 @@ int main()
         } 
     }
     printf("Total count = %d\n", count);
+    if (count==2) {
+        printf("%d is a prime number", n);
+    } if (count != 2) {
+        printf("%d is not a prime number", n);
+    }
 
     return 0;
 }
