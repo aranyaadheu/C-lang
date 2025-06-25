@@ -10,7 +10,6 @@ int main()
         if(n % i == 0){
             printf("%d\n", i);
             count = count + 1;
-            
         } 
     }
     printf("Total count = %d\n", count);
